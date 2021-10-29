@@ -17,17 +17,19 @@ header .burger-menu {
 }
 
 header .logo {
+    display: inline-block;
     width: 130px;
-    margin-left: 25px;
+    /*margin-left: 25px;
     padding-top: 25px;
-    margin-bottom: 10px;
+    margin-bottom: 10px;*/
 }
+
 
 /* search-bar */
 
 header .search-bar {
     display: inline-block;
-    margin-left: 15px;
+    /*margin-left: 15px;*/
 }
 
 /* Quota */
@@ -43,4 +45,5 @@ header nav ul#top-list {
     margin-bottom: 25px;
 }
 
-/* END HEADER */
+
+

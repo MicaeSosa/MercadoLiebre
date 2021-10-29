@@ -26,6 +26,8 @@ main.home {
 .home .card {
     background-color: white;
     margin-bottom: 10px;
+    
+
 }
 
 .home .card .card-content {
@@ -34,7 +36,7 @@ main.home {
     position: relative;
 }
 
-.home .card .card-content .icon-truck {
+/*.home .card .card-content .icon-truck {
     border: 1px solid var(--verde);
     border-radius: 50%;
     width: fit-content;
@@ -43,16 +45,27 @@ main.home {
     position: absolute;
     top: -15px;
     right: 20px;
-}
+}*/
 
 .home .card .card-content .icon-truck i {
     color: var(--verde);
     font-size: 16px;
+    display: block;
+    padding: 5px;
+   width: fit-content;
+    width: -moz-fit-content;
+    border: 1px solid #39b54a;
+    background-color: #fff;
+    border-radius: 50%;
+    position: absolute;
+    right: 20px;
+    top: -15px;
+    
 }
 
 .home .card .card-content .product-info {
     display: flex;
-    /*justify-content: space-between;*/
+    justify-content: space-between;
     padding-top: 5px;
 }
 
@@ -67,7 +80,7 @@ main.home {
 }
 
 .home .card .card-content .product-name {
-    display: none;
+    /*display: none;*/
     color: var(--gris-oscuro);
     font-size: 15px;
     margin-top: 15px;
@@ -77,9 +90,18 @@ main.home {
 @media (min-width: 361px) {
     .home .card {
         box-shadow: 0px 0px 10px rgb(100, 100, 100);
+        display: inline-block;
+        flex-flow: row wrap;
+        flex-direction: row;
+        flex-wrap: wrap;
+        justify-content: space-between;
+        width: 45%;
+    
+      
+
     }
 
-    .home .card .car-content .product-name {
+    .home .card .card-content .product-name {
         display: block;
     }
 }
@@ -92,4 +114,15 @@ main.home {
     nav {
         display: block;
     }
+    .home .card {
+        box-shadow: 0px 0px 10px rgb(100, 100, 100);
+        display: inline-flexbox;
+        flex-wrap: wrap;
+        justify-content: space-between;
+        align-items: center;
+        width: 23.5%;
+    }
+    
 }
+
+
