@@ -1,3 +1,5 @@
+/* HEADER*/
+
 header {
     background-color: var(--amarillo);
     font-size: var(--paragraph);
@@ -102,4 +104,5 @@ header nav ul#top-list {
         margin-bottom: 0;
     }
 }
+
 
